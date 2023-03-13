@@ -4,10 +4,10 @@
   "description": "Express server with Typescript template for vercel deployment",
   "main": "index.js",
   "scripts": {
-    "start": "vercel dev",
     "deploy": "vercel deploy --prod",
-    "start-dev": "nodemon src/index.ts",
+    "start": "nodemon src/index.ts",
     "build": "rimraf dist && tsc",
+    "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist"
   },
   "repository": {
