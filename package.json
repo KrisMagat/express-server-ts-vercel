@@ -1,10 +1,9 @@
 {
   "name": "express-server-ts-vercel",
   "version": "1.0.0",
-  "description": "Express server with Typescript template for vercel deployment",
+  "description": "Express server with Typescript back-end for vercel deployment",
   "main": "index.js",
   "scripts": {
-    "deploy": "vercel deploy --prod",
     "start": "nodemon src/index.ts",
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
@@ -15,15 +14,14 @@
     "url": "git+https://github.com/KrisMagat/express-server-ts-vercel.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kris Magat",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KrisMagat/express-server-ts-vercel/issues"
   },
   "homepage": "https://github.com/KrisMagat/express-server-ts-vercel#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "vercel": "^28.16.15"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
